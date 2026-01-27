@@ -1,0 +1,7 @@
+Step 1: Know the limits of data types
+Type	Size	Maximum value
+int	32-bit	2,147,483,647 ≈ 2 × 10⁹
+long long	64-bit	9,223,372,036,854,775,807 ≈ 9 × 10¹⁸
+
+2 ^ 32 -> 10^9
+2 ^ 63 -> 10^18

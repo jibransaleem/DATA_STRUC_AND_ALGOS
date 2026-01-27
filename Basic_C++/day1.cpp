@@ -4,6 +4,8 @@ using namespace std;
 // %  => a /b : a divided by b , what  remains after dividing a by b is modulus
 // c++ follows bodmas : B – Bracket O – Orders (powers, roots, exponents) D – Division  M – Multiplication A – Addition S – Subtraction
 //Division and Multiplication are done left to right , Addition and Subtraction are done left to right
+
+
 int main(){
     int a = 16;
     int b = 3;
