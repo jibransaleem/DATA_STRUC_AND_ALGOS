@@ -25,6 +25,10 @@ int main(){
     float it_is_float = 18.897f;
 
     // string is derived data type ,derived from char
+    char var = '?';
+    int a , b;
+    cin >> a >> b ;
+    cout << static_cast<float>(a)/b;
 
 
 
