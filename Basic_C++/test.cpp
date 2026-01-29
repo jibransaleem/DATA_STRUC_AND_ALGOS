@@ -1,10 +1,20 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    int a,b,c,d;
-    cin >> a >> b >> c >> d;
-    long long t1 = a*b;
-    long long t2 = c*d;
-    cout << (t1*t2)%100;
+
+int nth_feb(int n ){
+    // base cases
+    if (n ==2 ){
+        return 1;
+    }
+    if (n==1){
+        return 0;
+    }
+    return nth_feb(n-1)+nth_feb(n-2);
+}
+signed main(){
+    long long number ;
+    cin >> number;
+    long long ans  = nth_feb(number);
+    cout <<  ans;
     return 0;
 }

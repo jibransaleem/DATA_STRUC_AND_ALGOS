@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
-int main(){
 
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     // using cin : each multi inputs are seprated by sapce no matter input is integer or string or char
     int inp1 , inp2 ;
     cin >>inp1>>inp2;
